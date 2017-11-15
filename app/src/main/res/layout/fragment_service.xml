@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_weight="0.04"
+        android:text="Rent a Car"
+        android:textAlignment="center"
+        android:textSize="22sp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="0.03">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_register1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:background="@color/colorPrimary"
+            android:text="Users"
+            android:textColor="@android:color/white"/>
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_register2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="Servics Provider"
+            android:textColor="@android:color/white"/>
+    </android.support.design.widget.TextInputLayout>
+    <TextView
+        android:id="@+id/tv_register1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="5dp"
+        android:text=" Back "
+        android:textColor="@color/colorAccent" />
+
+</LinearLayout>
